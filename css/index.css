@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+  }
+  ul {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  button {
+    cursor: pointer;
+  }
+
+.class_a, .class_b {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+  }
+  .class_a {
+    color: #212121;
+  }
+  .class_b {
+    color: #757575;
+  }
