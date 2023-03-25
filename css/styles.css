@@ -6,6 +6,7 @@
   --theme-color: #2196f3;
   --pharagraph-color: #757575;
   --light-color: #ffffff;
+  --background-color: #f5f4fa;
   --font-first: 14px;
   --font-second: 16px;
   --font-third: 18px;
@@ -50,23 +51,15 @@ p {
 .text {
   color: var(--brand-color);
 }
-.link-nav:hover,
-.link-nav:focus {
-  color: var(--theme-color);
-}
-.link-end:hover,
-.link-end:focus {
-  color: var (--theme-color);
-}
-.link-data:hover,
-.link-data:focus {
-  color: var (--theme-color);
-}
 .link-nav {
   font-size: var(--font-first);
   line-height: 1.1;
   letter-spacing: 0.02em;
   color: var (--brand-color);
+}
+.link-nav:hover,
+.link-nav:focus {
+  color: var(--theme-color);
 }
 .link-data {
   font-size: var(--font-first);
@@ -74,20 +67,24 @@ p {
   letter-spacing: 0.02em;
   color: var (--pharagraph-color);
 }
-.button-main:hover,
-.button-main:focus {
+.link-data:hover,
+.link-data:focus {
   color: var (--theme-color);
-  background-color: var(--light-color);
 }
 .button-main {
-  background-color: var(--theme-color);
+  background-color: var(--background-color);
   border: none;
-  color: var(--light-color);
+  color: var(--brand-color);
   text-align: center;
   font-size: var(--font-second);
   border-radius: 4px;
   width: 117px;
   height: 30px;
+}
+.button-main:hover,
+.button-main:focus {
+  color: var(--light-color);
+  background-color: var(--theme-color);
 }
 .link-end {
   font-weight: 400;
@@ -95,4 +92,8 @@ p {
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--light-color);
+}
+.link-end:hover,
+.link-end:focus {
+  color: var (--theme-color);
 }
