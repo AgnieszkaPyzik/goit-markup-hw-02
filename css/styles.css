@@ -1,6 +1,15 @@
 * {
   margin: 0;
 }
+:root {
+  --brand-color: #212121;
+  --theme-color: #2196f3;
+  --pharagraph-color: #757575;
+  --light-color: #ffffff;
+  --font-first: 14px;
+  --font-second: 16px;
+  --font-third: 18px;
+}
 ul {
   list-style: none;
 }
@@ -13,20 +22,20 @@ button {
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
-  color: #212121;
+  color: var (--brand-color);
 }
 h2 {
   font-weight: 700;
-  font-size: 18px;
+  font-size: var (--font-third);
   line-height: 2;
   letter-spacing: 0.06em;
 }
 p {
   font-weight: 400;
-  font-size: 16px;
+  font-size: var(--font-second);
   line-height: 1.9;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(pharagraph-color);
 }
 .accent,
 .text {
@@ -36,56 +45,54 @@ p {
   line-height: 1.2;
 }
 .accent {
-  color: #2196f3;
+  color: var (--theme-color);
 }
 .text {
-  color: #212121;
+  color: var(--brand-color);
 }
 .link-nav:hover,
 .link-nav:focus {
-  color: #2196f3;
+  color: var(--theme-color);
 }
 .link-end:hover,
 .link-end:focus {
-  color: #2196f3;
+  color: var (--theme-color);
 }
 .link-data:hover,
 .link-data:focus {
-  color: #2196f3;
+  color: var (--theme-color);
 }
 .link-nav {
-  font-size: 14px;
+  font-size: var(--font-first);
   line-height: 1.1;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var (--brand-color);
 }
 .link-data {
-  font-size: 14px;
+  font-size: var(--font-first);
   line-height: 1.1;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var (--pharagraph-color);
 }
 .button-main:hover,
 .button-main:focus {
-  color: #2196f3;
-  background-color: #ffffff;
+  color: var (--theme-color);
+  background-color: var(--light-color);
 }
 .button-main {
-  background-color: #2196f3;
+  background-color: var(--theme-color);
   border: none;
-  color: #ffffff;
+  color: var(--light-color);
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
+  font-size: var(--font-second);
   border-radius: 4px;
   width: 117px;
   height: 30px;
 }
 .link-end {
   font-weight: 400;
-  font-size: 14px;
+  font-size: var(--font-first);
   line-height: 1.7;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--light-color);
 }
