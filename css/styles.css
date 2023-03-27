@@ -25,6 +25,7 @@ button {
 body {
   font-family: var(--font-primary);
   color: var(--brand-color);
+  letter-spacing: 0.03em;
 }
 h1 {
   font-weight: 900;
@@ -40,7 +41,6 @@ h2 {
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--brand-color);
 }
 h3 {
@@ -52,11 +52,9 @@ h3 {
 }
 p {
   line-height: 1.9;
-  letter-spacing: 0.03em;
   color: var(--pharagraph-color);
 }
 figure {
-  align-items: left;
   text-align: center;
 }
 .logo,
@@ -64,8 +62,8 @@ figure {
   font-weight: 700;
   font-family: var(--font-second);
   font-size: 26px;
-  line-height: 1.2;
   letter-spacing: 0.03em;
+  line-height: 1.2;
 }
 .logo {
   color: var(--theme-color);
@@ -100,13 +98,12 @@ figure {
   background-color: #2f303a;
 }
 .section-2,
-.section-3 {
-  background-color: #e5e5e5;
-}
+.section-3,
 .section-4 {
-  background-color: #f5f4fa;
+  background-color: var(--background-color);
 }
 .button-1st {
+  font-family: var(--font-primary);
   background-color: var(--theme-color);
   color: var(--light-color);
   font-weight: 700;
@@ -120,6 +117,7 @@ figure {
   text-transform: uppercase;
 }
 .button-main {
+  font-family: var(--font-primary);
   background-color: var(--background-color);
   border: none;
   color: var(--brand-color);
@@ -146,7 +144,6 @@ figure {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
   text-align: center;
 }
 .role {
@@ -161,7 +158,6 @@ footer {
   font-family: var(--font-primary);
   font-size: 14px;
   line-height: 1.7;
-  letter-spacing: 0.03em;
   font-style: normal;
 }
 .link-maps {
